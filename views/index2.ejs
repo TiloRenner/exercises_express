@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+    <div>Test</div>
+    <div id="output"></div>
+    <!--<script src="ejs.min.js"></script>-->
+    <script>
+    let users = ['Bob', 'John', 'Jane' ];
+
+        let text = " ";
+        users.forEach((user) => {
+            text += user;
+
+            console.log(user)
+        });
+
+        //html = ejs.render('<%= users.join(", "); %>', {users: users});
+        //html = "Blas";
+        document.getElementById('output').innerHTML = text;
+    </script>
+</body>
+</html>
+
+

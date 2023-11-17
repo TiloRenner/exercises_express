@@ -5,9 +5,22 @@
   <title>Put Page</title>
 </head>
 <body>
-    <form action="/?_method=PUT" method="POST">
+    <form action="/?_methodx=DELETE" method="POST">
         <button type="submit">Put Stuff</button>
     </form>
+
+    <form action="/showPost/" method="POST">
+      <input type="text" name="firstName">
+      <input type="text" name="lastName">
+      <button type="submit">Post Names</button>
+  </form>
+  <br>
+  <form action="/showGet/" method="GET">
+    <input type="text" name="firstName">
+    <input type="text" name="lastName">
+    <button type="submit">Get Names</button>
+</form>
+
 
 </body>
 </html>
